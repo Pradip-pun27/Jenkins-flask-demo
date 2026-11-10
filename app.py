@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "status": "online",
-        "service": "Flask Wow Production App Ok Man",
+        "service": "Flask 1Wow Production App Ok Man",
         "deployed_by": "Jenkins CI/CD Pipeline"
     })
 
